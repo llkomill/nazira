@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Назира</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="sky"></canvas>
+  <canvas id="art"></canvas>
+
+  <div id="caption">
+    <p class="main"></p>
+    <p class="sub"></p>
+  </div>
+
+  <button id="sound" class="icon-btn" aria-label="Звук" title="Звук">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9 18V6l10-2v12"/>
+      <circle cx="6.5" cy="18" r="2.5"/>
+      <circle cx="16.5" cy="16" r="2.5"/>
+      <line class="slash" x1="3" y1="3" x2="21" y2="21"/>
+    </svg>
+  </button>
+
+  <button id="replay">↻&nbsp; ещё раз</button>
+
+  <div id="intro">
+    <div class="intro-inner">
+      <p class="intro-small">маленький сюрприз</p>
+      <h1>Махине и Сафармуроду</h1>
+      <button id="open">Открыть</button>
+      <p class="hint">включи звук ♪</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
